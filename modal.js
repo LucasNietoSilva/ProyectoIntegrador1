@@ -6,14 +6,13 @@ let modal = document.querySelectorAll(".modal")[0];
 let modalC = document.querySelectorAll(".modal-contenedor")[0];
 
 abrir.addEventListener("click", function(e){
-    e.preventDefault();
+    // e.preventDefault();
     modalC.style.opacity = "1";
     modalC.style.visibility = "visible";
     modal.classList.toggle("cerrarmodal");
 });
 
 cerrar.addEventListener("click", function(){
-    
     modal.classList.toggle("cerrarmodal");
 
     setTimeout(function(){
@@ -21,6 +20,7 @@ cerrar.addEventListener("click", function(){
         modalC.style.visibility = "hidden";
         
     },900)
+    
 });
 
 window.addEventListener("click", function(e) {
@@ -31,5 +31,6 @@ window.addEventListener("click", function(e) {
             modalC.style.opacity = "0";
             modalC.style.visibility = "hidden";       
         },900)
+        }
     }
-});
+);
