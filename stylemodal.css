@@ -34,7 +34,7 @@
 }
 
 .modal-izquierda {
-    background-image: url(/Materiales/imagen-modal.JPG);
+    background-image: url("./Materiales/imagen-modal.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -183,7 +183,7 @@ h2 {
     }
     
     .modal-izquierda {
-        background-image: url(/Materiales/imagen-modal.JPG);
+        background-image: url("./Materiales/imagen-modal.JPG");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
