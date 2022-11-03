@@ -98,7 +98,7 @@
     /* Estilos para elemntos de la portada */
 
     .portada {
-        background-image: linear-gradient(rgba(34, 33, 51, 0.4), rgba(34, 33, 51, 0.4)), url(/Materiales/manos.jpg);
+        background-image: linear-gradient(rgba(34, 33, 51, 0.4), rgba(34, 33, 51, 0.4)), url("./Materiales/manos.jpg");
         background-size: 100% 100%;
         height: 480px;
         display: flex;
@@ -131,7 +131,7 @@
     }
 
     .imagen1 {
-        background-image: url(/Materiales/oficina.png);
+        background-image: url("./Materiales/oficina.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -152,7 +152,7 @@
     }
 
     .imagen2 {
-        background-image: url(/Materiales/voluntariado.jpg);
+        background-image: url("./Materiales/voluntariado.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -380,14 +380,14 @@
     }
 
     .anterior {
-        background-image: url(/Materiales/flecha-izquierda.png);
+        background-image: url("./Materiales/flecha-izquierda.png");
         background-size: 100% 100%;
         border: none;
         background-color: #17A2BB;
     }
 
     .siguiente {
-        background-image: url(/Materiales/flecha-izquierda.png);
+        background-image: url("./Materiales/flecha-izquierda.png");
         transform: rotate(180deg);
         background-size: 100% 100%;
         border: none;
@@ -420,7 +420,7 @@
     }
 
     .imgPerros {
-        background-image: url(/Materiales/perros.jpg);
+        background-image: url("./Materiales/perros.jpg");
         grid-area: imgPerros;
         display: flex;
         flex-direction: column-reverse;
@@ -499,7 +499,7 @@
     }
 
     .imgTecho {
-        background-image: url(/Materiales/techo.jpg);
+        background-image: url("./Materiales/techo.jpg");
         grid-area: imgTecho;
     }
 
@@ -523,7 +523,7 @@
     }
 
     .imgRemar {
-        background-image: url(/Materiales/remar.jpg);
+        background-image: url("./Materiales/remar.jpg");
         grid-area: imgRemar;
     }
 
@@ -547,7 +547,7 @@
     }
 
     .imgTuTecho {
-        background-image: url(/Materiales/techo2.jpg);
+        background-image: url("./Materiales/techo2.jpg");
         grid-area: imgTuTecho;
     }
 
@@ -611,7 +611,7 @@
     .imgpc {
         width: 550px;
         height: 235px;
-        background-image: url(/Materiales/laptop-escritorio.jpg);
+        background-image: url("./Materiales/laptop-escritorio.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -884,7 +884,7 @@
     }
 
     .portada {
-        background-image: linear-gradient(rgba(34, 33, 51, 0.4), rgba(34, 33, 51, 0.4)), url(/Materiales/manos.jpg);
+        background-image: linear-gradient(rgba(34, 33, 51, 0.4), rgba(34, 33, 51, 0.4)), url("./Materiales/manos.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -915,7 +915,7 @@
     }
 
     .imagen1 {
-        background-image: url(/Materiales/oficina.png);
+        background-image: url("./Materiales/oficina.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -927,7 +927,7 @@
     }
 
     .imagen2 {
-        background-image: url(/Materiales/voluntariado.jpg);
+        background-image: url("./Materiales/voluntariado.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1209,7 +1209,7 @@
     }
 
     .imgPerros {
-        background-image: url(/Materiales/perros.jpg);
+        background-image: url("./Materiales/perros.jpg");
         grid-area: imgPerros;
         display: flex;
         flex-direction: column-reverse;
@@ -1290,7 +1290,7 @@
     }
 
     .imgTecho {
-        background-image: url(/Materiales/techo.jpg);
+        background-image: url("./Materiales/techo.jpg");
         grid-area: imgTecho;
     }
 
@@ -1314,7 +1314,7 @@
     }
 
     .imgRemar {
-        background-image: url(/Materiales/remar.jpg);
+        background-image: url("./Materiales/remar.jpg");
         grid-area: imgRemar;
     }
 
@@ -1337,7 +1337,7 @@
     }
 
     .imgTuTecho {
-        background-image: url(/Materiales/techo2.jpg);
+        background-image: url("./Materiales/techo2.jpg");
         grid-area: imgTuTecho;
     }
 
@@ -1360,7 +1360,7 @@
         border-radius: 10px;
         width: 360px;
         height: 150px;
-        background-image: url(/Materiales/laptop-escritorio.jpg);
+        background-image: url("./Materiales/laptop-escritorio.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
